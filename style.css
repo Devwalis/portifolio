@@ -22,4 +22,123 @@
     
 
 }
+
+body{
+    height: 100vh;
+    background-color: var(--color-body);
+}
+
+.interface{
+    max-width: 1480px;
+    margin: 0 auto;
+
+
+}
+.dobraSection{
+    background: var(--color-header);
+    height: 158px;
+    position: relative;
+bottom: 610px;    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    color: #2D7A78;
+}
+.flex{
+    display: flex;
+    
+   
+}
+
+
+
+header{
+    background: var(--color-header);
+    padding: 20px 40px;
+}
+
+.titlePortfolio{
+    color: var(--color-button-end-text);
+    font-family: Poppins;
+    font-weight: 300;
+    
+}
+.img-elipse{
+    position: relative;
+    left: 400px;
+    bottom: 450px;
+}
+.img-topo{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 500px;
+    z-index: 999999;
+    top: 38px;
+}
+.txt-topo-site{
+    padding: 50px;
+
+}
+.text-topo-site{
+    font-family: Poppins;
+    color: var(--color-text);
+    font-weight: 300;
+    font-size: 22px;
+}
+.title-topo-site{
+    color: var(--color-text);
+    font-family: Poppins;
+    letter-spacing: 1px;
+    font-weight: 600;
+    
+}
+button{
+    padding: 10px 34px;
+    border-radius: 5px;
+    border: solid 1px #629CE0;
+    background-color: #212135;
+    color: var(--color-text);
+    letter-spacing: 0.5px;
+    display: flex;
+    gap: 1px;
+
+    
+    
+
+}
+.flexbutton{
+   
+}
+.color-button{
+    background-color: var(--color-button-end-text);
+    border: none;
+    
+}
+button:hover{
+    cursor:pointer;
+    transition: 1s;
+    background-color: #629CE0;
+    
+
+}
+.btn-contato{
+    display: flex;
+    gap:10px;
+    padding: 20px 20px 0px 0px;
+    
+}
+.icon{
+    width: 20px;
+    
+
+}
+.sobreMin{
+    
+}
  
