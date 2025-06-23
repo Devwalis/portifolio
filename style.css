@@ -23,7 +23,7 @@
 
 }
 .interface{
-    max-width: 1800px;
+    max-width: 1400px;
     margin: 0 auto;
 
 }
@@ -71,11 +71,13 @@ a:hover{
 }
 .grid{
     display: grid;
-    grid-template-columns: 200px 200px;
-    padding-top: 10px;
+    grid-template-columns: 110px 110px;
+    padding-top: 20px;
+    margin: 0 auto;
     padding-left: 100px;
-    padding-top: 100px;
-    gap: 30px 580px;
+    
+   
+    gap: 30px 510px;
 }
 
 
@@ -199,21 +201,25 @@ padding: 20px;
  }
  .Servicos{
     position: relative;
-    bottom: 300px;
+    bottom: 450px;
+   
+    
+  
     
  }
 .cardServicos{
-    width: 740px;
+    width: 600px;
     color: var(--color-text);
     border: solid 1px #629CE0;
     border-radius: 10px;
     padding: 20px;
+    
  }
 
  footer{
 font-family: Poppins;
 position: relative;
-bottom: 100px;
+bottom: 400px;
 height: 300px;
  }
 
@@ -231,6 +237,6 @@ height: 300px;
     display: flex;
     align-items: center;
  }
- a{
-    width: 300px;
+ footer a{
+    width: 250px;
  }

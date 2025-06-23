@@ -16,3 +16,10 @@
     --color-cardHabilidade: #edeff169;     
 
 }
+header{
+    background-color: var(--color-header);
+    display: flex;
+    justify-content: space-around;
+    color: var(--color-button-end-text);
+    
+}
