@@ -19,11 +19,14 @@
 header{
     background-color: var(--color-header);
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     color: var(--color-button-end-text);
+    padding: 10px;
+    gap: 27rem;
     
     
 }
+
 body{
     background-color: var(--color-body);
    
@@ -33,16 +36,22 @@ main{
     justify-content: center;
     flex-direction: column;
 }
+.titlePortfolio{
+    font-family: Poppins;
+
+}
 
 .container-flex{
          background-color:#31313F ;
          width: 1200px;   
          margin: 0 auto;
+         border-radius: 10px;
+        
 }
 .border{
     display: flex;
     background-color: var(--color-cardHabilidade);
-    padding: 10px;
+    
 }
 .textoProjetos{
     display: flex;
@@ -71,4 +80,21 @@ button{
     height: 441px;
     width: 740px;
     padding: 10px;
+}
+.title > h2{
+    font-family: Poppins;
+    color: var(--color-text);
+    ;
+    display: flex;
+    align-items: center;
+   
+}
+.icon{
+    width: 20px;
+}
+.title{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20rem;
 }
