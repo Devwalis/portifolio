@@ -22,4 +22,53 @@ header{
     justify-content: space-around;
     color: var(--color-button-end-text);
     
+    
+}
+body{
+    background-color: var(--color-body);
+   
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-flex{
+         background-color:#31313F ;
+         width: 1200px;   
+         margin: 0 auto;
+}
+.border{
+    display: flex;
+    background-color: var(--color-cardHabilidade);
+    padding: 10px;
+}
+.textoProjetos{
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    color: var(--color-text);
+    gap: 1rem;
+    padding: 20px;
+    
+}
+
+.btn-contato{
+    display: flex;
+    gap:10px;
+    padding: 20px 20px 0px 0px;
+    
+}
+button{
+    padding: 10px;
+    background-color: var(--color-button-end-text);
+    border: none;
+    border-radius: 5px;
+    color: var(--color-text);
+}
+.video{
+    height: 441px;
+    width: 740px;
+    padding: 10px;
 }
