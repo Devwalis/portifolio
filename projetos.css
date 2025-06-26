@@ -16,6 +16,9 @@
     --color-cardHabilidade: #edeff169;     
 
 }
+a{
+    text-decoration: none;
+}
 header{
     background-color: var(--color-header);
     display: flex;
@@ -57,7 +60,23 @@ main{
 .border{
     display: flex;
     background-color: var(--color-cardHabilidade);
+    align-items: center;
     
+    
+}
+
+.flexbutton{
+    display: flex;
+    gap: 5px;
+}
+.color-button{
+    background-color: var(--color-body);
+    border: 1px solid rgb(3, 133, 209);
+    display: flex;
+    gap: 5px;
+}
+.color-button:hover{
+    background-color: var(--color-button-end-text);
 }
 .textoProjetos{
     display: flex;
@@ -86,6 +105,8 @@ button{
     height: 441px;
     width: 740px;
     padding: 10px;
+    position: relative;
+    top: 21px;
 }
 .title > h2{
     font-family: Poppins;
@@ -108,4 +129,53 @@ button:hover{
   cursor:pointer;
     transition: 1s;
     background-color: var(--color-header);
+}
+
+footer{
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 110px 110px;
+    gap: 70px 300px;
+    justify-content: center;
+
+}
+.video1{
+
+    width: 528px;
+    height: 345px;
+    z-index: 999999;
+    position: relative;
+    bottom:350px ;
+    left: 77px;
+    border-radius: 40px 20px;
+
+}
+.imgNotbook{
+    z-index: 999999;
+    height: 300px;
+    border-radius: 200px;
+    position: relative;
+    
+
+
+}
+footer a{
+    color:white;
+    text-decoration: none;
+    font-family: Poppins;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+} 
+
+footer h3{
+
+display: flex;
+position: relative;
+left: 145px;
+    color: var(--color-button-end-text);
+    padding: 30px;
 }
