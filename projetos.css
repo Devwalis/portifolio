@@ -131,13 +131,16 @@ button:hover{
     background-color: var(--color-header);
 }
 
-footer{
-
+.icon{
+ width: 25px;
+}
+.icons{
+width: 20px;
 }
 .grid{
     display: grid;
     grid-template-columns: 110px 110px;
-    gap: 70px 300px;
+    gap: 70px 400px;
     justify-content: center;
 
 }
@@ -175,7 +178,7 @@ footer h3{
 
 display: flex;
 position: relative;
-left: 145px;
-    color: var(--color-button-end-text);
+left: 130px;
+    color: var(--color-text);
     padding: 30px;
 }
