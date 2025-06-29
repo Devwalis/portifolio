@@ -182,3 +182,13 @@ left: 130px;
     color: var(--color-text);
     padding: 30px;
 }
+.elipse{
+height: 510px;
+width: 100px;
+
+}
+.imgDesing{
+    z-index:7;
+    width: 50px;
+
+}
