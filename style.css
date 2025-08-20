@@ -285,6 +285,7 @@ height: 300px;
      justify-items: center;
      align-items: center;
      width: 400px;
+     padding: 2px;
      
     
     }
@@ -314,6 +315,9 @@ height: 300px;
     footer .grid{
         grid-template-columns: 1fr 1fr;
     }
+    .buttonfooter{
+        padding: 10px;
+    }
 }
 
 @media  screen and (max-width: 768px) {
@@ -336,11 +340,15 @@ height: 300px;
     }
 
     .text-topo-site{
+        
         display: flex;
-        font-size: 16px;
+        font-size: 15px;
         
         
     
+    }
+    .txt-topo-site{
+        padding: 10px;
     }
     .titlePortfolio{
         padding-top: 20px;
