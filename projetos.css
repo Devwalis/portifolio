@@ -61,6 +61,7 @@ main{
     display: flex;
     background-color: var(--color-cardHabilidade);
     align-items: center;
+    flex-wrap: wrap;
     
     
 }
@@ -103,7 +104,7 @@ button{
 }
 .video{
     height: 441px;
-    width: 740px;
+   
     padding: 10px;
     position: relative;
     top: 21px;
@@ -190,5 +191,41 @@ width: 100px;
 .imgDesing{
     z-index:7;
     width: 50px;
+
+}
+
+
+@media screen and (max-width: 740px){
+    
+    .imgnNotbook{
+        width: 250px;
+    }
+    .video1{
+        width: 200px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        top: -241px;
+        left: 29px;
+
+
+      
+    }
+    .textoProjetos{
+        font-size: 15px;
+    }
+    .container-flex{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        width: 300px;
+        padding: auto;
+    }
+    .video{
+        height: 200px;
+    
+    }
 
 }
