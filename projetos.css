@@ -220,6 +220,12 @@ width: 100px;
         word-spacing: 1px;
         
     }
+
+    .titlePortfolio{
+        position: relative;
+        top: 60px;
+
+    }
     .video1{
         width: 200px;
         position: relative;
@@ -245,7 +251,12 @@ width: 100px;
     }
     .video{
         height: 200px;
+        position: relative;
+        left: 5px;
     
+    }
+    button{
+        font-size: 12px;
     }
     .title{
         display: flex;
@@ -256,6 +267,9 @@ width: 100px;
 
     .btn-contato{
         position:relative;
+        font-size: 12px;
+        justify-content: center;
+        left: 10px;
         
         
     }
@@ -285,6 +299,8 @@ width: 100px;
        font-size: 12px;
 
     }
+
+   
 
     .titlePortfolio{
      
